@@ -1,0 +1,41 @@
+.app {
+}
+
+.gamePanel{
+  margin: 0 auto;
+  background: #ffe8f0;
+  width: 740px;
+  height: 740px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.row{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.row>.item{
+  width: 70px;
+  height: 70px;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f6d7b9;
+}
+.row>.item>.text{
+  color: #FFFFFF;
+  font-size: 64px;
+  font-weight: 600;
+}
+.row>.item.show{
+  background: #df974e;
+}
+.row>.item.success{
+  background: #46c73d;
+}
+.row>.item.error{
+  background: red;
+}
